@@ -1,0 +1,51 @@
+/* In thid file we are going to keep all the decoration of the LUNCH,BRUCNH AND MENU body of the website  */
+
+
+
+
+body {
+    background-color: rgb(72, 68, 65);
+    /* Back ground color of the web page*/
+    font-family: Cambria,
+        Cochin,
+        Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+
+}
+
+.container {
+    margin: 100px 100px;
+    color: white;
+
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.description {
+    margin-top: 100px;
+
+}
+
+
+.Menu-describe {
+    text-align: center;
+    font-size: larger;
+}
+
+span {
+    color: rgb(169, 114, 11);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border: 1px dashed;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/media/parc-logo-retina.png">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://kit.fontawesome.com/6f0e8eb73f.js" crossorigin="anonymous"></script>
+    <title>Online-Order</title>
+    <style>
+        body {
+            background-image: url(media/41-419298_background-image-for-restaurant-website.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+        }
+
+        .container {
+            margin: 100px 100px;
+            color: white;
+            /* color of the writing */
+        }
+
+
+        button {
+            background-color: white;
+            width: 150px;
+            height: 30px;
+            margin-top: 10px;
+            margin-left: 10px;
+
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .button a {
+            color: black;
+            border: 1px solid;
+            padding: 9px 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .button {
+            margin-top: 20px;
+
+        }
+
+        @media (max-width:600px) {
+            .container {
+                margin: 100px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="upper">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <label class="logo"><img src="media/parc-logo-retina.png" alt=""></label>
+                <ul>
+                    <!-- <li class="logo"><img src="media/parc-logo-retina.png" alt=""></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Dinner Menu</a></li>
+                    <li><a href="Lunch.html">Launch Menu</a></li>
+                    <li><a href="brunch.html">Brunch Menu</a></li>
+                    <li><a href="Bakery.html">Bakery</a></li>
+                    <li><a href="photogallery.html">Photo Gallery</a></li>
+                    <li><a href="Onlineorder.html">Online Order</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="Hours-and-Location.html">Hours and Location</a></li>
+                    <li><a href=""></a></li>
+
+
+                </ul>
+                <!-- <img src="parc-logo-retina.png" alt=""> -->
+            </nav>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Make your online order
+        </h1>
+        <form action="">
+            <fieldset>
+                <legend>Your Information</legend>
+                <p> Name: <input type="text" name="Name" placeholder="Enter Your Name:"></p>
+                <p> Phone Number: <input type="text" name="Number" placeholder="Enter Your Number:"></p>
+                <p> Email: <input type="text" name="Email" placeholder="Enter Your Email:"></p>
+                <p>Pickup Intructions:</p>
+                <textarea name="Extra text" placeholder="No more than 400 words long" id="dssd" cols="30" rows="5"
+                    maxlength="400"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Select you dishes:</legend>
+                <fieldset>
+                    <legend>First Courses:</legend>
+                    <p>
+                        <label for="Carpaccio">
+                            <input type="checkbox" name="Appatizer" id="Carpaccio">Sliced Waygu Carpaccio -$19
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="Burata">
+                            <input type="checkbox" name="Appatizer" id="Burata">Charred Burrata -$16
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Wings">
+                            <input type="checkbox" name="Appatizer" id="Wings">Chile Honey Chicken Wings -$16
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Chakutarie">
+                            <input type="checkbox" name="Appatizer" id="Chakutarie">Charcuterie board -$26
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Shrimp">
+                            <input type="checkbox" name="Appatizers" id="Shrimp">Colossal Shrimp Cocktail -$19
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Oysters">
+                            <input type="checkbox" name="Appatizers" id="Oysters"> Roasted Oysters -$21
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Tartar">
+                            <input type="checkbox" name="Appatizers" id="Tartar"> Ahi Tuna Tartare -$18
+                        </label>
+                    </p>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Soup and Salad:</legend>
+                    <fieldset>
+                        <legend>Soup:</legend>
+                        <p>
+                            <label for="Bisque">
+                                <input type="checkbox" name="Soup" id="Bisque">Crab Bisque -$11
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Salad:</legend>
+                        <p>
+                            <label for="Romain">
+                                <input type="checkbox" name="Salad" id="Romain">Charred Baby Romain -$14
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Orchard">
+                                <input type="checkbox" name="Salad" id="Orchard">Orchard Market Salad -$15
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Caesar">
+                                <input type="checkbox" name="Salad" id="Caesar">Kale and Arugula Caesar -$14
+                            </label>
+                        </p>
+                        <p>
+                            <label for="chopped">
+                                <input type="checkbox" name="Salad" id="chopped">Parc Classic chopped -$14
+                            </label>
+                        </p>
+
+                    </fieldset>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Main Courses:</legend>
+                    <fieldset>
+                        <legend>Fish:</legend>
+                        <p>
+                            <label for="Branzino">
+                                <input type="checkbox" name="Main Courses" id="Branzino">Branzino Alla Pistra -$36
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Salmon">
+                                <input type="checkbox" name="Main Courses" id="Salmon">Wood Grilled Organic Scottish
+                                Salmon
+                                -$37
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Scallops">
+                                <input type="checkbox" name="Main Courses" id="Scallops">Seared Scallops -$39
+                            </label>
+                        </p>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pasta:</legend>
+                        <p>
+                            <label for="pappardella">
+                                <input type="checkbox" name="Pasta" id="pappardella">Filet Tip pappardella -$38
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Oxtail">
+                                <input type="checkbox" name="Pasta" id="Oxtail">Oxtail Ragu -$37
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Orecchiette">
+                                <input type="checkbox" name="Pasta" id="Orecchiette">Vegan Sausage Orecchiette -$29
+                            </label>
+                        </p>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Wood Grilled Meat:</legend>
+                        "We don't have the option to order steak through this website yet but hopefully we will have
+                        it
+                        ASAP, Sorry for all the inconvenience" -Menegement of PARC
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Entees:</legend>
+                        <p>
+                            <label for="Bolognese">
+                                <input type="checkbox" name="Entees" id="Bolognese">Prime New York Steak & Bolognese
+                                -$44
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Shortrib">
+                                <input type="checkbox" name="Entees" id="Shortrib">Braised Wagyu Shortrib -$45
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Bolognese">
+                                <input type="checkbox" name="Entees" id="Bolognese">Cider-Brined Otto's Chicken -$44
+                            </label>
+                        </p>
+
+                    </fieldset>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Accompaniments:</legend>
+                    <p>
+                        <label for="Brussel">
+                            <input type="checkbox" name="Accompaniment" id="Brussel">Roasted Brussel Sprouts -$12
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Fries">
+                            <input type="checkbox" name="Accompaniment" id="Fries">Truffle Fries -$13
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Mushrooms">
+                            <input type="checkbox" name="Accompaniment" id="Mushrooms">Wild Mushrooms -$11
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Red">
+                            <input type="checkbox" name="Accompaniment" id="Red">Red Skin Smash -$12
+                        </label>
+                    </p>
+                    <p>
+                        <label for="Cassoulet">
+                            <input type="checkbox" name="Accompaniment" id="Cassoulet">Heirloom Beans Cassoulet -$13
+                        </label>
+                    </p>
+                </fieldset>
+            </fieldset>
+
+            <div class="button">
+                <a href="mailto:john@example.com">Confirm Your Order</a>
+                <!-- <button type="submit">Confirm Your Order</button> -->
+                <a href="">Reset</a>
+                <!-- <button type="reset"> reset </button> -->
+            </div>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="socials">
+            <!-- social media with the link of each social media attaced to it -->
+            <a href="https://www.instagram.com/parcdetroit/?hl=en" target="_blank"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/ParcDetroit/" target="_blank"><i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="copyright"><small>Copyright &copy; 2022 Mohammed Uddin.</small></p>
+    </footer>
+</body>
+
+</html>

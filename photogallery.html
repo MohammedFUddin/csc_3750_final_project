@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/media/parc-logo-retina.png">
+    <link rel="stylesheet" href="css/navigation.css">
+    <script src="https://kit.fontawesome.com/6f0e8eb73f.js" crossorigin="anonymous"></script>
+    <title>Photo-Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(95, 91, 87);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        .container {
+
+            /* display: flex; */
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            /* margin-top: 60px 20px 0 20px; */
+            margin-top: 100px;
+        }
+
+        .container .heading {
+            width: 50%;
+            padding-bottom: 50px;
+        }
+
+        .container .heading h3 {
+            text-align: center;
+            font-size: 3em;
+            font-weight: bolder;
+            padding-bottom: 10px;
+            margin-left: 80%;
+        }
+
+        .container .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+        .container .box .pictures {
+            display: flex;
+            flex-direction: column;
+            /* width: 32.5%; */
+
+        }
+
+        .pictures img {
+            width: 100%;
+            padding-right: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <label class="logo"><img src="media/parc-logo-retina.png" alt=""></label>
+                <ul class="upper">
+                    <!-- <li class="logo"><img src="media/parc-logo-retina.png" alt=""></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Dinner Menu</a></li>
+                    <li><a href="Lunch.html">Launch Menu</a></li>
+                    <li><a href="brunch.html">Brunch Menu</a></li>
+                    <li><a href="Bakery.html">Bakery</a></li>
+                    <li><a href="photogallery.html">Photo Gallery</a></li>
+                    <li><a href="Onlineorder.html">Online Order</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="Hours-and-Location.html">Hours and Location</a></li>
+                    <li><a href=""></a></li>
+
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+    <div class="container">
+        <div class="heading">
+            <h3>Gallery</h3>
+        </div>
+        <div class="box">
+            <div class="pictures">
+                <img class="card" src="media/IMG_21.jpg" alt="">
+                <img class="card" src="media/IMG_2.jpg" alt="">
+                <img class="card" src="media/IMG_1.jpg" alt="">
+                <img class="card" src="media/IMG_3.jpg" alt="">
+                <img class="card" src="media/IMG_4.jpg" alt="">
+                <img class="card" src="media/IMG_5.jpg" alt="">
+                <img class="card" src="media/IMG_7.jpg" alt="">
+                <img class="card" src="media/IMG_8.jpg" alt="">
+                <img class="card" src="media/IMG_9.jpg" alt="">
+                <img class="card" src="media/IMG_10.jpg" alt="">
+                <img class="card" src="media/IMG_11.jpg" alt="">
+                <img class="card" src="media/IMG_15.jpg" alt="">
+                <img class="card" src="media/IMG_28.jpg" alt="">
+                <img class="card" src="media/IMG_27.jpg" alt="">
+
+            </div>
+
+            <div class="pictures">
+                <img class="card" src="media/IMG_12.jpg" alt="">
+                <img class="card" src="media/IMG_13.jpg" alt="">
+                <img class="card" src="media/IMG_14.jpg" alt="">
+                <img class="card" src="media/IMG_15.jpg" alt="">
+                <img class="card" src="media/IMG_4.jpg" alt="">
+                <img class="card" src="media/IMG_5.jpg" alt="">
+                <img class="card" src="media/IMG_7.jpg" alt="">
+                <img class="card" src="media/IMG_8.jpg" alt="">
+                <img class="card" src="media/IMG_9.jpg" alt="">
+                <img class="card" src="media/IMG_10.jpg" alt="">
+                <img class="card" src="media/IMG_11.jpg" alt="">
+                <img class="card" src="media/IMG_11.jpg" alt="">
+                <img class="card" src="media/IMG_24.jpg" alt="">
+                <img class="card" src="media/IMG_23.jpeg" alt="">
+
+            </div>
+
+            <div class="pictures">
+                <img class="card" src="media/IMG_16.jpg" alt="">
+                <img class="card" src="media/IMG_17.jpg" alt="">
+                <img class="card" src="media/IMG_18.jpg" alt="">
+                <img class="card" src="media/IMG_19.jpg" alt="">
+                <img class="card" src="media/IMG_4.jpg" alt="">
+                <img class="card" src="media/IMG_20.jpg" alt="">
+                <img class="card" src="media/IMG_21.jpg" alt="">
+                <img class="card" src="media/IMG_22.jpg" alt="">
+                <img class="card" src="media/IMG_4232.jpg" alt="">
+                <img class="card" src="media/IMG_3.jpg" alt="">
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="socials">
+            <!-- social media with the link of each social media attaced to it -->
+            <a href="https://www.instagram.com/parcdetroit/?hl=en" target="_blank"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/ParcDetroit/" target="_blank"><i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="copyright"><small>Copyright &copy; 2022 Mohammed Uddin.</small></p>
+    </footer>
+
+
+</body>
+
+</html>
